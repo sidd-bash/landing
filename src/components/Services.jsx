@@ -14,7 +14,7 @@ export default function Services() {
        
     ]
   return (
-    <div className='bg-[#663128] py-10'>
+    <div className='bg-[#7C4032] py-10 '>
         <h1 className='font-[900] text-6xl text-center text-white'>Services</h1>
         <div className='grid gap-3 grid-rows-2 grid-cols-4 px-10 py-10'>
             {Services.map(service=>(
