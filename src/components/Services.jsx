@@ -14,9 +14,9 @@ export default function Services() {
        
     ]
   return (
-    <div className='bg-[#7C4032] py-10 '>
+    <div className='bg-[#7C4032] py-10 px-44 flex flex-col gap-4 -mt-28 z-50 '>
         <h1 className='font-[900] text-6xl text-center text-white'>Services</h1>
-        <div className='grid gap-3 grid-rows-2 grid-cols-4 px-10 py-10'>
+        <div className='grid gap-2 grid-rows-2 grid-cols-4 px-10 py-10'>
             {Services.map(service=>(
                 <Service service={service}/>
             ))}

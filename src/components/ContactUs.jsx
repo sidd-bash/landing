@@ -39,12 +39,12 @@ export default function ContactUs() {
         },
     ]
   return (
-    <div>
+    <div className='py-10'>
         <h1 className='font-[900] text-6xl text-center'>Contact Us</h1>
         <div className='flex justify-center gap-10 my-10'>
             <form className='flex flex-col gap-2 items-center'>
                 {inputFields.map(field=>(
-                    <input type={field.type} name={field.name} placeHolder={field.placeHolder} className='bg-[#E5AF99] rounded-full w-[374px] h-14 px-2 py-1  text-[#7C4032]'/>
+                    <input type={field.type} name={field.name} placeHolder={field.placeHolder} className='bg-[#E5AF99] rounded-full w-[374px] h-14 px-2 py-1  placeholder-[#7C4032]'/>
                 ))}
                 <button type='submit' className='border border-[#55352D] rounded-full w-20 px-5 py-2'>Send</button>
             </form>
