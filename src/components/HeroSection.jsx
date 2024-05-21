@@ -8,18 +8,18 @@ import curve1 from "../images/curve1bg.png";
 export default function HeroSection() {
   return (
     <div className="pt-[75px] pb-[181px] bg-[#FEF4DE]">
-      <img src={curve1} alt="" className="absolute left-0 top-0" />
+      <img src={curve1} alt="" className="absolute left-0 top-0 z-50" />
       <img
         src={maskGroup}
         alt=""
-        className="absolute opacity-80 left-0 top-0 h-screen"
+        className="absolute opacity-80 left-0 top-0 h-screen z-0"
       />
       <img src={curve2} alt="" className="absolute left-0 -bottom-40" />
       <div
         id="heroSection"
         className="flex justify-center font-poppins text-[#663128] gap-10 mb-40"
       >
-        <div id="heroText" className="flex flex-col justify-end gap-5">
+        <div id="heroText" className="flex flex-col justify-end gap-5 z-50">
           <div className="flex flex-col">
             <span className="text-[115px] font-[900] leading-[100px]">What the</span>
             <span className="text-[58px] tracking-[.45em] font-[700] leading-[58px]">
