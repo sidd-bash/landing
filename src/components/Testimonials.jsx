@@ -33,7 +33,7 @@ export default function Testimonials() {
   return (
     <div className='py-10 px-20 bg-[#FEF4DE]'>
         <img src={maskGroup} alt="" className='absolute opacity-80 left-0' />
-        <h1 className='font-[900] text-6xl text-center'>Testimonials</h1>
+        <h1 className='font-[900] text-6xl text-center z-50'>Testimonials</h1>
         <div className='grid gap-3 grid-rows-2 grid-cols-2 px-10 py-10'>
             {Testimonials.map(testimonial=>(
                 <Testimonial testimonial={testimonial}/>

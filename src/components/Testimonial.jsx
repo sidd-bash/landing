@@ -3,7 +3,7 @@ import { IoIosStar, IoIosStarOutline } from "react-icons/io";
 
 export default function Testimonial({ testimonial }) {
   return (
-    <div className="flex flex-col px-4 py-3 border border-black rounded-xl">
+    <div className="flex flex-col px-4 py-3 border border-black rounded-xl bg-white opacity-100 z-50">
       <div className="font-[900] ">{testimonial.name}</div>
       <div>{testimonial.message}</div>
       <div className="flex">
